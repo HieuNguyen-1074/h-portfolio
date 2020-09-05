@@ -41,16 +41,16 @@ function displayInforMore() {
             }
         } else {
             $('.header-icon__menu').css("transform", "rotate(720deg)");
-            $('.header').children('h1').css("color", "#fff");
+
             for (let x = 0; x < 5; x++) {
 
                 $('.header-icon__menu').children("div").eq(x).css("opacity", "1");
-                $('.header-icon__menu').children("div").eq(x).css("background-color", "#fff");
+
 
                 if (x === 3 || x == 4) {
                     $('.header-icon__menu').css("transform", "rotate(0deg)");
                     $('.header-icon__menu').children("div").eq(x).css("opacity", "0");
-                    $('.header-icon__menu').children("div").eq(x).css("background-color", "#fff");
+
 
                 }
                 $('.informore-introduce').children().removeClass('active');

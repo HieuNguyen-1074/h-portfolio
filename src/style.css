@@ -59,6 +59,7 @@ html {
   width: 100%;
   box-sizing: border-box;
   margin-top: 1rem;
+  z-index: 101;
   display: flex;
   justify-content: stretch;
   align-items: center;
